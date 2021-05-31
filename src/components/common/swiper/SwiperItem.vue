@@ -1,0 +1,28 @@
+<template>
+  <div class="slide">
+      <slot name="slidename"></slot>
+  </div>
+</template>
+
+<script>
+export default {
+  name:'SwiperItem',
+  props:{
+    count:0
+  },
+  mounted(){
+    
+  }
+}
+</script>
+
+<style>
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.slide img {
+  width: 100%;
+}
+</style>

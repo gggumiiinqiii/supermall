@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!-- keep-alive会缓存文件,在生命周期中不会被销毁 -->
+    <!-- keep-alive会缓存文件,在生命周期中不会被销毁exclude会让他不会缓存 -->
     <keep-alive exclude="detail">
       <router-view></router-view>
     </keep-alive>
