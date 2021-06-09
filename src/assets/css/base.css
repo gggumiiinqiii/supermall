@@ -33,6 +33,8 @@ body {
   -webkit-tap-highlight-color: transparent; /* webkit是苹果浏览器引擎，tap是点击，highlight是背景高亮，color颜色，颜色用数值调节 */
   background: var(--color-background);
   width: 100vw;
+  /* max-width设置100%清楚下方的滑动栏 */
+  max-width: 100%;
 }
 
 a {
